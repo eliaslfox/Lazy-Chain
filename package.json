@@ -1,7 +1,7 @@
 {
   "name": "lazy-chain",
   "version": "0.0.0",
-  "description": "A library using es6 proxies to implement lazy chaining.",
+  "description": "Lazily chain with proxies.",
   "main": "index.js",
   "scripts": {
     "test": "node --harmony-proxies --harmony mocha.js"
