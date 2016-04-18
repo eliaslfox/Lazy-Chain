@@ -4,7 +4,8 @@
   "description": "Lazily chain with proxies.",
   "main": "index.js",
   "scripts": {
-    "test": "node --harmony-proxies --harmony mocha.js"
+    "test": "node --harmony-proxies --harmony mocha.js -- -R spec \\",
+    "cover": "istanbul cover npm run test && ./node_modules/.bin/codecov -t 41911582-5972-464c-8de2-2f3d75dc2d7d"
   },
   "keywords": [
     "Chain",
@@ -21,11 +22,13 @@
     "email": "eliaslfox@gmail.com"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/eliaslfox/Lazy-Chain.git"
+    "type": "git",
+    "url": "https://github.com/eliaslfox/Lazy-Chain.git"
   },
   "devDependencies": {
+    "codecov": "^1.0.1",
     "expect": "^1.16.0",
+    "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
   },
   "dependencies": {
