@@ -4,7 +4,7 @@
   "description": "Lazily chain with proxies.",
   "main": "index.js",
   "scripts": {
-    "test": "node --harmony-proxies --harmony mocha.js --report lcovonly -- -R spec"
+    "test": "node --harmony-proxies --harmony mocha.js"
   },
   "keywords": [
     "Chain",
