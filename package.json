@@ -24,13 +24,11 @@
     "type": "git",
     "url": "https://github.com/eliaslfox/Lazy-Chain.git"
   },
-  "devDependencies": {
+  "dependencies": {
+    "harmony-proxy": "^1.0.1",
     "codecov": "^1.0.1",
     "expect": "^1.16.0",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
-  },
-  "dependencies": {
-    "harmony-proxy": "^1.0.1"
   }
 }
