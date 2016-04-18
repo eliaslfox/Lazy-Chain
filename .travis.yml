@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "5"
 install:
- - npm install -g codecov
- - npm install -g istanbul
- - npm install
-after_success:
-  - npm run cover
+  - npm install -g codecov
+  - npm install -g istanbul
+script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --harmony-proxies --harmony --report lcovonly -- -R spec
+  - codecov
