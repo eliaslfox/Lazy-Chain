@@ -4,6 +4,7 @@ node_js:
 install:
   - npm install -g codecov
   - npm install -g istanbul
+  - npm install -g mocha
 script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --harmony-proxies --harmony --report lcovonly -- -R spec
+  - istanbul cover mocha --harmony-proxies --harmony --report lcovonly -- -R spec
   - codecov
