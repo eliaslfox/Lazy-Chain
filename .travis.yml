@@ -1,11 +1,3 @@
 language: node_js
 node_js:
   - "5"
-install:
-  - npm install
-  - npm install -g codecov
-  - npm install -g istanbul
-  - npm install -g mocha
-script:
-  - istanbul cover mocha --harmony-proxies --harmony --report lcovonly -- -R spec
-  - codecov
