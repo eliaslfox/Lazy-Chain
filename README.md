@@ -1,11 +1,15 @@
 # LazyChain
-[![Build Status](https://travis-ci.org/eliaslfox/Lazy-Chain.svg?branch=master)](https://travis-ci.org/eliaslfox/Lazy-Chain) [![npm version](https://badge.fury.io/js/lazy-chain.svg)](https://badge.fury.io/js/lazy-chain) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![NPM](https://nodei.co/npm/lazy-chain.png)](https://nodei.co/npm/lazy-chain/)
+
+[![Build Status](https://travis-ci.org/eliaslfox/Lazy-Chain.svg?branch=master)](https://travis-ci.org/eliaslfox/Lazy-Chain) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) ![bower](https://img.shields.io/bower/v/lazy-chain.svg) ![](https://img.shields.io/npm/l/lazy-chain.svg)
 
 A library to allow easy method chaining with es6 proxies.
 
 ## Usage
 ```bash
 npm install lazy-chain
+or
+bower install lazy-chain
 ```
 Then in your js file
 
