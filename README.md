@@ -23,13 +23,13 @@ chain.forEach((value) => {
     console.log(value)
 })
 //The chain can now be fed objects
-chain.run([1, 2, 3])
-chain.run([7, 3, 8])
+chain.chain([1, 2, 3])
+chain.chain([7, 3, 8])
 ```
 
 ## Output
 
-The output from `LazyChain.prototype.run` is defined as
+The output from `LazyChain.prototype.chain` is defined as
 
 ```js
 {

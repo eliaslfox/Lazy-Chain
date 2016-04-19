@@ -11,7 +11,7 @@ var handle = {
       case '_get':
         return methods
 
-      case 'run':
+      case 'chain':
         return (obj) => {
           return {
             obj,
