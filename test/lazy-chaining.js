@@ -25,7 +25,7 @@ describe('LazyChain', () => {
     const chain = new LazyChain()
     var arr = []
     chain.push('test')
-    chain.run(arr)
+    chain.chain(arr)
     expect(arr).toEqual(['test'])
   })
 
@@ -33,7 +33,7 @@ describe('LazyChain', () => {
     const chain = new LazyChain()
     chain.push('test')
     expect(
-      chain.run([])
+      chain.chain([])
     ).toEqual(
       { obj: [ 'test' ], results: [ 1 ] }
     )
