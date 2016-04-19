@@ -1,7 +1,11 @@
 "use strict";
 
-//Use the new proxy api
-var Proxy = require('harmony-proxy');
+//Code for browsers
+if(typeof require !== 'undefined') {
+  var Proxy = require('harmony-proxy');
+} else {
+  var module = {}
+}
 
 //Create the handle function
 var handle = {
