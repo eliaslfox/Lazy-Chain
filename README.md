@@ -11,7 +11,7 @@ A library to allow easy method chaining with es6 proxies.
 First run `npm install lazy-chain` then require the file
 
 ```js
-const LazyList = require("lazy-chain")
+const LazyChain = require("lazy-chain")
 ```
 
 ### Bower

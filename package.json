@@ -1,6 +1,6 @@
 {
   "name": "lazy-chain",
-  "version": "0.2.2",
+  "version": "0.2.2 doc",
   "description": "Lazily chain with proxies.",
   "main": "index.js",
   "scripts": {
