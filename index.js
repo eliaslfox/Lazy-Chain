@@ -25,6 +25,16 @@ var handle = {
           return obj
         }
 
+      case 'pipe':
+        return (obj) => {
+          const piper = (i, obj) => {
+            if (i === 0) return obj
+            const curMeth = methods[methods.length - i]
+            return piper(i - 1, obj[curMeth.name].apply(obj, curMeth.args))
+          }
+          return piper(methods.length, obj)
+        }
+
       // Return a function to add chain a method
       default:
         methods.push({name: meth})

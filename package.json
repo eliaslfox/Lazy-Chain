@@ -4,7 +4,7 @@
   "description": "Lazily chain with proxies.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --harmony --harmony-proxies --harmony_rest_parameters",
+    "test": "mocha --harmony --harmony-proxies",
     "lint": "eslint index.js",
     "cover": "istanbul --harmony --harmony-proxies --harmony_rest_parameters cover _mocha"
   },
