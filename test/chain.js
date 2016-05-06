@@ -1,3 +1,5 @@
+'use strict'
+
 const LazyChain = require('../index.js')
 const chai = require('chai')
 const assert = chai.assert
