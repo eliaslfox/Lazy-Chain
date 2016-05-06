@@ -4,7 +4,9 @@
   "description": "Lazily chain with proxies.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --harmony-proxies --harmony"
+    "test": "mocha --harmony --harmony-proxies",
+    "lint": "eslint index.js",
+    "cover": "istanbul --harmony --harmony-proxies cover _mocha"
   },
   "keywords": [
     "Chain",
@@ -25,8 +27,13 @@
     "url": "https://github.com/eliaslfox/Lazy-Chain.git"
   },
   "dependencies": {
-    "harmony-proxy": "^1.0.1",
+    "chai": "^3.5.0",
+    "eslint": "^2.9.0",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-standard": "^1.3.2",
     "expect": "^1.16.0",
+    "harmony-proxy": "^1.0.1",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
   }
