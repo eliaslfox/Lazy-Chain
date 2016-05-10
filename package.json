@@ -3,6 +3,8 @@
   "version": "1.0.2",
   "description": "Lazily chain with proxies.",
   "main": "index.js",
+  "homepage": "https://github.com/eliaslfox/lazy-chain/",
+  "man": "README.md",
   "scripts": {
     "test": "mocha --harmony --harmony-proxies",
     "lint": "eslint index.js",
@@ -19,7 +21,7 @@
   "author": "Elias Lawson-Fox <eliaslfox@gmail.com> (http://github.com/eliaslfox)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eliaslfox/Lazy-Chain/issues",
+    "url": "https://github.com/eliaslfox/lazy-chain/issues",
     "email": "eliaslfox@gmail.com"
   },
   "repository": {
