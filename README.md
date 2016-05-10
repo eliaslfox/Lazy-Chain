@@ -1,7 +1,7 @@
 # Lazy Chain
 [![NPM](https://nodei.co/npm/lazy-chain.png?downloads=true)](https://nodei.co/npm/lazy-chain/)
 
-[![Build Status](https://travis-ci.org/eliaslfox/Lazy-Chain.svg?branch=master)](https://travis-ci.org/eliaslfox/Lazy-Chain) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) ![bower](https://img.shields.io/bower/v/lazy-chain.svg) ![](https://img.shields.io/npm/l/lazy-chain.svg) [![codecov](http://codecov.io/gh/eliaslfox/Lazy-Chain/branch/master/graph/badge.svg)](https://codecov.io/gh/eliaslfox/Lazy-Chain)
+[![Build Status](https://travis-ci.org/eliaslfox/lazy-chain.svg?branch=master)](https://travis-ci.org/eliaslfox/Lazy-Chain) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) ![bower](https://img.shields.io/bower/v/lazy-chain.svg) ![](https://img.shields.io/npm/l/lazy-chain.svg) [![codecov](http://codecov.io/gh/eliaslfox/Lazy-Chain/branch/master/graph/badge.svg)](https://codecov.io/gh/eliaslfox/Lazy-Chain)
 
 A library to allow easy method chaining with es6 proxies.
 
