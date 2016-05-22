@@ -69,14 +69,3 @@ lazy.map((value) => {
 lazy.pipe([1, 2]) //Becomes [5, 6]
 lazy.pipe([3, 4]) //Becomes [8, 10]
 ```
-
-
-
-## Notes
-
-* It is possible to chain any method
-* It is possible to use any object
-* The methods are chained onto the original object, not each others output
-* Node must be run with the flags --harmony-proxies --harmony
-* For this to be used in browser, the brower must have the `Proxy` api.
-* The LazyChain's run method supersedes the run method of any object fed to it
