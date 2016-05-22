@@ -8,11 +8,11 @@
   "scripts": {
     "test": "mocha --harmony --harmony-proxies",
     "lint": "eslint index.js test/*.js",
-    "cover": "istanbul --harmony --harmony-proxies --harmony_rest_parameters cover _mocha"
+    "cover": "node --harmony node_modules/istanbul/lib/cli.js --harmony --harmony-proxies --harmony_rest_parameters cover _mocha"
   },
   "pre-commit": [
-    "test",
-    "lint"
+    "lint",
+    "cover"
   ],
   "keywords": [
     "Chain",
